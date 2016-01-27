@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+
+		<title>Physical Fitness</title>
+			
+			<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+		<style>
+
+			html{
+				height: 100%;
+				background-image: url('images/two.jpg');
+    			background-repeat: no-repeat;
+    			background-color: black;
+    			background-attachment: fixed;
+    			background-size: 100%;
+			}
+			body{
+				height:100%;
+				
+			}
+
+
+			p{
+				text-indent: 25px;
+			}
+			
+
+			#title{
+				font-family: oswald;
+				background-color: #C7AC92;
+				height: 25%;
+				width:100%;
+				z-index: 3;
+				font-size: 32pt;
+				opacity: .8;
+				
+			}
+
+			#first{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_one{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_one{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_one{
+				 background-color: white;
+				 width: 50%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_one{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_one:hover{
+				opacity: 1;
+			}
+
+			#info_one:hover ~ #hover_one{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_one:hover ~ center{
+				opacity: .3;
+			}
+
+			#second{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_two{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_two{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_two{
+				 background-color: white;
+				 width: 50%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_two{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_two:hover{
+				opacity: 1;
+			}
+
+			#info_two:hover ~ #hover_two{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_two:hover ~ center{
+				opacity: .3;
+			}
+
+			#third{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_three{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_three{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_three{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_three{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_three:hover{
+				opacity: 1;
+			}
+
+			#info_three:hover ~ #hover_three{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_three:hover ~ center{
+				opacity: .3;
+			}
+			
+			#fourth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_four{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_four{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_four{
+				 background-color: white;
+				 width: 50%;
+				 height: 40%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_four{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_four:hover{
+				opacity: 1;
+			}
+
+			#info_four:hover ~ #hover_four{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_four:hover ~ center{
+				opacity: .3;
+			}
+
+			#fifth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_five{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_five{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_five{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_five{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_five:hover{
+				opacity: 1;
+			}
+
+			#info_five:hover ~ #hover_five{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_five:hover ~ center{
+				opacity: .3;
+			}
+
+			#sixth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_six{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_six{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_six{
+				 background-color: white;
+				 width: 50%;
+				 height: 50%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_six{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_six:hover{
+				opacity: 1;
+			}
+
+			#info_six:hover ~ #hover_six{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_six:hover ~ center{
+				opacity: .3;
+			}
+			
+		</style>
+	</head>
+
+
+
+	<body>
+		
+			<center><div id="title">
+				PHYSICAL FITNESS
+			<div></center>
+
+
+		<div id="first">
+			<div id="photo_one">
+				<div id="info_one">
+			</div>
+				
+					<div id="hover_one"> <p>This is my basic training scorecard. The army grades Soldiers on 3 exercises: push ups, sit ups, and a 2 mile run. Scores for each event are graded on a 100 point scale, and a score of 60 in each event must be acheived to be considered passing. The Army tends to overemphasize the administrative aspect of the physical fitness test, and yet at other times it doesn't. For instance, if you fail multiple PT tests at a regular unit you will likely be processed for separation from the Army. However, when I was in basic training there were definitely multiple people who failed the final PT test and the make-up test, and were still allowed to graduate. Obviously, their scores were altered by whoever was administering the test so that they could pass the burden off to those in charge of the next stage of the Soldier's training.</p> </div>
+				
+				<center>
+
+					<img id="fire_one" src="scanned_docs/pt_cards/pt_one.png">
+				</center>
+			</div>
+		</div>
+			
+		<div id="second">
+			<div id="photo_two">
+				<div id="info_two">
+			</div>
+				
+					<div id="hover_two"> <p>This is my Advanced Individual Training scorecard. Since I was still in training at this time I was still subjected to the Army's absurd physical fitness program. Obviously, my scores show that the Army's methods are effective in acheiving the desired results in the specific events they test on: push ups, sit ups, 2-mile run, but they do nothing to improve the overall health of individual Soldiers in the immediate, and over the course of a Soldier's career. The Army tends to emphasize high impact workouts and repetitive exercises that ultimately degrade from muscular strength exercises into bone and joint stress exercises. Given that the physical stress of the combat environment already causes permanent damage in the joints and spine, the Army should focus on a fitness program that counteracts these effects rather than adds to them.   </p> </div>
+				
+				<center>
+
+					<img id="fire_two" src="scanned_docs/pt_cards/pt_two.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="third">
+			<div id="photo_three">
+				<div id="info_three">
+			</div>
+				
+					<div id="hover_three"> <p>I got a <em>little</em> lazy once I was assigned to my regular unit. </p> </div>
+				
+				<center>
+
+					<img id="fire_three" src="scanned_docs/pt_cards/pt_three.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="fourth">
+			<div id="photo_four">
+				<div id="info_four">
+			</div>
+				
+					<div id="hover_four"> <p> As is typical of PT tests, this one took place at 6am. I had maybe two hours of sleep prior and was hungover on Captain Morgan. I was puking by the time the sit up event was over and continued to puke during and after the run. That might seem ridiculous, but I had been inadvertantly training for that exact scenario over the previous three months.</p> 
+					<p> While preparing for deployment, my 7-man team had broken away from the rest of the company for our daily physical training so that we could direct our fitness goals towards our specific mission. We would usually kick each Monday off with a 5-mile trail run on. At this time some of the guys on my team and I would usually imbibe heavily over the weekend (a common Army pastime) all the way into Sunday night. We'd then stumble in Monday morning and subject ourselves to the grueling run. Like clockwork, I would make it 2.5 miles through the run, stop to puke up the contents of my stomach, and continue on for the next 2.5 miles. I loved every painful, brutal second of it. </p> </div>
+				
+				<center>
+
+					<img id="fire_four" src="scanned_docs/pt_cards/pt_five.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="fifth">
+			<div id="photo_five">
+				<div id="info_five">
+			</div>
+				
+					<div id="hover_five"> <p>The reality is that the PT test has almost nothing to do with a Soldiers physical rediness and everything to do with promotions and career progression. Case in point being the seperate physical standards for males and females and the age groups within each gender. The only reason for separate standards is to level the competitive playing field that is Army promotions. Secondly, If you need a PT test to make sure that Soldiers are preparing themselves for combat, then you're not letting the right people into the military. I accomplished far more during my time in the military when I was empowered to take my own initiative make my own decisions. Let the right people in and they will self-regulate and regulate their peers. Lastly, There is not a single professional athlete on Earth that prepares themselves for a test, they prepare themselves for the fight.</p> </div>
+				
+				<center>
+
+					<img id="fire_five" src="scanned_docs/pt_cards/pt_four.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="sixth">
+			<div id="photo_six">
+				<div id="info_six">
+			</div>
+				
+					<div id="hover_six"> <p> I was in the best shape of my life at this time, and it was completely in spite of the Army's PT program. I was bulked up, I could lift heavy, I was flexible, I could run fast and far, and I had endurance for days. For the previous two years or so my fellow leaders and I worked hard to reject the Army's methods and adopt more high intensity training workouts, olympic lifting, gymnastics, and, most importantly, sports. Sports are something that are widely discouraged across the Army when it comes to incorporating them into PT programs because of the high risk of injury. Commanders would rather be able to report high numbers of non-injured Soldiers rather than maximize the physical and mental potential of their Soldiers. Given the widespread prejudice against injured Soldiers who The endurance and hyper-competitive spirit that can be gained from sport cannot be undervalued. There was a three month period where I never engaged in a single running workout, substituting pick up games of basketball in its place. Through basketball I was able to get my run time down to the levels it was at earlier in my enlistment. I would also like to think that consitently engaging in sports positively impaceted the development of my situational thinking, strategic thinking, and killer instinct. But I'm no psychologist.</p> </div>
+				
+				<center>
+
+					<img id="fire_six" src="scanned_docs/pt_cards/pt_six.png">
+				</center>
+			</div>
+		</div>
+			
+
+	</body>
+
+
+
+
+
+
+</html>

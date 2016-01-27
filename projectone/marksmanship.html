@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+
+		<title>Marksmanship</title>
+			
+			<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+		<style>
+
+			html{
+				height: 100%;
+				background-image: url('images/two.jpg');
+    			background-repeat: no-repeat;
+    			background-color: black;
+    			background-attachment: fixed;
+    			background-size: 100%;
+			}
+			body{
+				height:100%;
+				
+			}
+
+
+			p{
+				text-indent: 25px;
+			}
+			
+
+			#title{
+				font-family: oswald;
+				background-color: #C7AC92;
+				height: 25%;
+				width:100%;
+				z-index: 3;
+				font-size: 32pt;
+				opacity: .8;
+				
+			}
+
+			#first{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_one{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_one{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_one{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_one{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_one:hover{
+				opacity: 1;
+			}
+
+			#info_one:hover ~ #hover_one{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_one:hover ~ center{
+				opacity: .3;
+			}
+
+			#second{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_two{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_two{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_two{
+				 background-color: white;
+				 width: 50%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_two{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_two:hover{
+				opacity: 1;
+			}
+
+			#info_two:hover ~ #hover_two{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_two:hover ~ center{
+				opacity: .3;
+			}
+
+			#third{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_three{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_three{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_three{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_three{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_three:hover{
+				opacity: 1;
+			}
+
+			#info_three:hover ~ #hover_three{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_three:hover ~ center{
+				opacity: .3;
+			}
+			
+			#fourth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_four{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_four{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_four{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_four{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_four:hover{
+				opacity: 1;
+			}
+
+			#info_four:hover ~ #hover_four{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_four:hover ~ center{
+				opacity: .3;
+			}
+
+			#fifth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_five{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_five{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_five{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_five{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_five:hover{
+				opacity: 1;
+			}
+
+			#info_five:hover ~ #hover_five{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_five:hover ~ center{
+				opacity: .3;
+			}
+
+			#sixth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_six{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_six{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_six{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_six{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_six:hover{
+				opacity: 1;
+			}
+
+			#info_six:hover ~ #hover_six{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_six:hover ~ center{
+				opacity: .3;
+			}
+			
+		</style>
+	</head>
+
+
+
+	<body>
+		
+			<center><div id="title">
+				MARKSMANSHIP
+			<div></center>
+
+
+		<div id="first">
+			<div id="photo_one">
+				<div id="info_one">
+			</div>
+				
+					<div id="hover_one"> <p>Obviously, as indicated by my 14 out of 40 mark on this scorecard (a passing score being a 24 out of 40),  I was not a very good shooter early in my enlistment. I barely qualified in basic training. This particular qualification took place during my advanced individual training immediately following basic combat training. I feel like I should note, in this case, that we were given dirty weapons that we were not allowed to clean with which to qualify. As a result, my rifle repeatedly malfunctioned. At best, I probaby only put 25 to 30 of my 40 rounds down range. So, I'm damn proud of my 14.</p> </div>
+				
+				<center>
+
+					<img id="fire_one" src="scanned_docs/marksmanship/fire_six.png">
+				</center>
+			</div>
+		</div>
+			
+		<div id="second">
+			<div id="photo_two">
+				<div id="info_two">
+				</div>
+				
+					<div id="hover_two"> <p>I just want to note here that the Army could really stand to take its marksmanship program a lot more seriously. Outside of combat arms units, Soldier competance and confidence in handling a weapon with intent and violence of action is severly lacking. I attribute this simply to the limited amount of time Soldiers spend with their assigned weapons (if they are even lucky enough to have one consistently assigned to them), and limited practice in putting accurate rounds down range outside of the context of a qualification event. Excuses for this at the unit level always come down to budgetary constraints. This is a poor excuse that again highlights the disconnect between the Army 'lifestyle' and what should be the Army mission. A Soldier's ability to kill should trump all other responsibilities.</p> </div>
+				
+				<center>
+
+					<img id="fire_two" src="scanned_docs/marksmanship/fire_five.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="third">
+			<div id="photo_three">
+				<div id="info_three">
+			</div>
+				
+					<div id="hover_three"> <p>My last name is spelled wrong. Just sayin'.</p> </div>
+				
+				<center>
+
+					<img id="fire_three" src="scanned_docs/marksmanship/fire_four.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="fourth">
+			<div id="photo_four">
+				<div id="info_four">
+			</div>
+				
+					<div id="hover_four"> <p>Name spelled wrong again. At least they caught it this time.</p> </div>
+				
+				<center>
+
+					<img id="fire_four" src="scanned_docs/marksmanship/fire_three.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="fifth">
+			<div id="photo_five">
+				<div id="info_five">
+			</div>
+				
+					<div id="hover_five"> <p>This was an interesting qualification. I had been given 10 extra rounds by accident, for a total of 50 instead of the 40 as prescribed by regulation, and I knew it. However, by the end of the final firing iteration I was so confident that I had hit all 40 targets with the first 40 rounds that I just popped up high on one knee and fired the final 10 rounds off-target in rapid sucession. I was fully prepared to use those 10 rounds to my advantage, but it turned out I didnt need to.</p> </div>
+				
+				<center>
+
+					<img id="fire_five" src="scanned_docs/marksmanship/fire_two.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="sixth">
+			<div id="photo_six">
+				<!--<div id="info_six">
+			</div>
+				
+					<div id="hover_six"> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_six" src="scanned_docs/marksmanship/fire_one.png">
+				</center>
+			</div>
+		</div>
+			
+
+	</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,251 @@
+			html{
+			width:100%;
+			height:100%;
+			background-color: black;
+			}
+
+			body{
+			width:100%;
+			height: 100%;
+			background-color:;
+			}
+
+			img{
+			width:1267px;
+			
+			position: absolute
+			
+			}
+
+			#uniform{
+			width:100%;
+			height:100%;
+			position: relative;
+			
+			}
+
+
+			#education{
+			width:85px;
+			height:95px;
+			background-color:;
+			position: absolute;
+			left:293px;
+			top:181px;
+			opacity: .3;
+			 -ms-transform: rotate(9deg); /* IE 9 */
+    		-webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    		transform: rotate(9deg);
+
+			}
+
+			#recognition{
+			width:100px;
+			height:40px;
+			background-color:;
+			position: absolute;
+			left:275px;
+			top:286px;
+			opacity: .3;
+			 -ms-transform: rotate(9deg); /* IE 9 */
+    		-webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    		transform: rotate(9deg);
+
+			}
+
+			#about{
+			width:210px;
+			height:75px;
+			background-color:;
+			position: absolute;
+			left:205px;
+			top:360px;
+			opacity: .3;
+			 -ms-transform: rotate(9deg); /* IE 9 */
+    		-webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    		transform: rotate(9deg);
+
+			}
+
+			#bsm{
+			width:99px;
+			height:29px;
+			background-color:;
+			position: absolute;
+			left:880px;
+			top:200px;
+			opacity: .5;
+			 -ms-transform: rotate(-5deg); /* IE 9 */
+    		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-5deg);
+
+			}
+
+				#acm{
+			width:104px;
+			height:28px;
+			background-color:;
+			position: absolute;
+			left:880px;
+			top:230px;
+			opacity: .5;
+			 -ms-transform: rotate(-4deg); /* IE 9 */
+    		-webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-4deg);
+
+			}
+
+			#aam{
+			width:104px;
+			height:28px;
+			background-color:;
+			position: absolute;
+			left:785px;
+			top:263px;
+			opacity: .5;
+			 -ms-transform: rotate(-4deg); /* IE 9 */
+    		-webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-4deg);
+
+			}
+
+				#afcm{
+			width:104px;
+			height:28px;
+			background-color:;
+			position: absolute;
+			left:786px;
+			top:291px;
+			opacity: .5;
+			 -ms-transform: rotate(-4deg); /* IE 9 */
+    		-webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-4deg);
+
+			}
+
+			#leader{
+			width:104px;
+			height:28px;
+			background-color:;
+			position: absolute;
+			left:986px;
+			top:278px;
+			opacity: .5;
+			 -ms-transform: rotate(-4deg); /* IE 9 */
+    		-webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-4deg);
+
+			}
+
+
+			#nato{
+			width:104px;
+			height:28px;
+			background-color:;
+			position: absolute;
+			left:992px;
+			top:306px;
+			opacity: .5;
+			 -ms-transform: rotate(-4deg); /* IE 9 */
+    		-webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-4deg);
+
+			}
+
+			#jscm{
+			width:99px;
+			height:29px;
+			background-color:;
+			position: absolute;
+			left:980px;
+			top:195px;
+			opacity: .5;
+			 -ms-transform: rotate(-3.5deg); /* IE 9 */
+    		-webkit-transform: rotate(-3.5deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-3.5deg);
+
+			}
+
+			#jsam{
+			width:99px;
+			height:29px;
+			background-color:;
+			position: absolute;
+			left:982px;
+			top:221px;
+			opacity: .5;
+			 -ms-transform: rotate(-3deg); /* IE 9 */
+    		-webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-3deg);
+
+			}
+
+				#cab{
+			width:150px;
+			height:80px;
+			background-color:;
+			position: absolute;
+			left:920px;
+			top:100px;
+			opacity: .5;
+			 -ms-transform: rotate(-3.5deg); /* IE 9 */
+    		-webkit-transform: rotate(-3.5deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-3.5deg);
+
+			}
+				#wings{
+			width:115px;
+			height:65px;
+			background-color:;
+			position: absolute;
+			left:792px;
+			top:363px;
+			opacity: .5;
+			 -ms-transform: rotate(-3.5deg); /* IE 9 */
+    		-webkit-transform: rotate(-3.5deg); /* Chrome, Safari, Opera */
+    		transform: rotate(-3.5deg);
+
+			}
+
+			#marksman{
+			width:85px;
+			height:135px;
+			background-color:;
+			position: absolute;
+			left:1000px;
+			top:350px;
+			opacity: .5;
+			 -ms-transform: rotate(0deg); /* IE 9 */
+    		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    		transform: rotate(0deg);
+
+			}
+
+				
+			
+
+
+				/* Media Queries 
+
+					@media screen and (max-width: 1140px){
+						#uniform{
+						height:795px;
+						}
+			
+					}
+
+					@media screen and (max-width: 1040px){
+						#uniform{
+						height:725px;
+						}
+			
+					}
+
+					@media screen and (max-width: 940px){
+						#uniform{
+						height:656px;
+						}
+			
+					}
+
+					*/

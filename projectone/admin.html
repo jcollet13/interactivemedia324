@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+
+		<title>Admin</title>
+			
+			<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+		<style>
+
+			html{
+				height: 100%;
+				background-image: url('images/two.jpg');
+    			background-repeat: no-repeat;
+    			background-color: black;
+    			background-attachment: fixed;
+    			background-size: 100%;
+			}
+			body{
+				height: 100%;
+
+
+
+				
+			}
+
+
+			p{
+				text-indent: 25px;
+			}
+			
+		
+			#title{
+				font-family: oswald;
+				background-color: #C7AC92;
+				height: 25%;
+				width:100%;
+				z-index: 3;
+				font-size: 32pt;
+				opacity: .8;
+				
+			}
+
+			#first{
+				position: relative;
+				height: 65vw;
+				width: 100%;
+				
+			
+			}
+
+
+			#fire_one{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_one{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_one{
+				 background-color: white;
+				 width: 50%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_one{
+				
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_one:hover{
+				opacity: 1;
+			}
+
+			#info_one:hover ~ #hover_one{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_one:hover ~ center{
+				opacity: .3;
+			}
+
+			#second{
+				position: relative;
+				height: 65vw;
+				width: 100%;
+				
+
+				
+			}
+
+
+			#fire_two{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_two{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_two{
+				 background-color: white;
+				 width: 50%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_two{
+				
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_two:hover{
+				opacity: 1;
+			}
+
+			#info_two:hover ~ #hover_two{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_two:hover ~ center{
+				opacity: .3;
+			}
+
+			#third{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_three{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_three{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_three{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_three{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_three:hover{
+				opacity: 1;
+			}
+
+			#info_three:hover ~ #hover_three{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_three:hover ~ center{
+				opacity: .3;
+			}
+			
+			#fourth{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_four{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_four{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_four{
+				 background-color: white;
+				 width: 40%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 28%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_four{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_four:hover{
+				opacity: 1;
+			}
+
+			#info_four:hover ~ #hover_four{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_four:hover ~ center{
+				opacity: .3;
+			}
+
+			#fifth{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_five{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_five{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_five{
+				 background-color: white;
+				 width: 50%;
+				 height: 22%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_five{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_five:hover{
+				opacity: 1;
+			}
+
+			#info_five:hover ~ #hover_five{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_five:hover ~ center{
+				opacity: .3;
+			}
+
+			#sixth{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_six{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_six{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_six{
+				 background-color: white;
+				 width: 40%;
+				 height: 35%;
+				 position: absolute;
+				 top:20%;
+				 left: 28%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_six{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_six:hover{
+				opacity: 1;
+			}
+
+			#info_six:hover ~ #hover_six{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_six:hover ~ center{
+				opacity: .3;
+			}
+
+			#seventh{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_seven{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_seven{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_seven{
+				 background-color: white;
+				 width: 50%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_seven{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_seven:hover{
+				opacity: 1;
+			}
+
+			#info_seven:hover ~ #hover_seven{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_seven:hover ~ center{
+				opacity: .3;
+			}
+
+			#eigth{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_eight{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_eight{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_eight{
+				 background-color: white;
+				 width: 50%;
+				 height: 20%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_eight{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_eight:hover{
+				opacity: 1;
+			}
+
+			#info_eight:hover ~ #hover_eight{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_eight:hover ~ center{
+				opacity: .3;
+			}
+
+			#ninth{
+				position: relative;
+				height: 65vw;
+				width: 100%
+			}
+
+
+			#fire_nine{
+				width:50%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_nine{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_nine{
+				 background-color: white;
+				 width: 50%;
+				 height: 20%;
+				 position: absolute;
+				 top:20%;
+				 left: 25%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_nine{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_nine:hover{
+				opacity: 1;
+			}
+
+			#info_nine:hover ~ #hover_nine{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_nine:hover ~ center{
+				opacity: .3;
+			}
+
+			#tenth{
+				position: relative;
+				height: 55vw;
+				width: 100%
+			}
+
+
+			#fire_ten{
+				width:70%;
+				margin: 5px;
+				height: 100%
+			}
+
+			#info_ten{
+				background-color: red;
+				z-index: 1;
+				width: 3%;
+				height:6%;
+				margin:20px;
+				opacity: .5;
+				position: absolute;
+
+			}
+
+			#hover_ten{
+				 background-color: white;
+				 width: 40%;
+				 height: 30%;
+				 position: absolute;
+				 top:20%;
+				 left: 28%;
+				 opacity: 0;
+				 padding-top: 20px;
+				 padding-bottom: 40px;
+				 padding-left: 20px;
+				 padding-right: 20px;
+				 font-family: avenir;
+				 font-size: 1.2vw;
+				 
+
+			}
+			#photo_ten{
+				height: 100%;
+				position: absolute;
+			}
+
+			#info_ten:hover{
+				opacity: 1;
+			}
+
+			#info_ten:hover ~ #hover_ten{
+				opacity: .9;
+				z-index: 2;
+			}
+			#info_ten:hover ~ center{
+				opacity: .3;
+			}
+			
+		</style>
+	</head>
+
+
+
+	<body>
+	
+			<center><div id="title">
+				PERSONNEL DOCUMENTS and CAREER PROGRESSION
+			<div></center>
+
+
+		<div id="first">
+			<div id="photo_one">
+				<!--<div id="info_one">
+			</div>
+				
+					<div id="hover_one"> <p></p> </div>-->
+				
+				<center>
+
+					<img id="fire_one" src="scanned_docs/promotion_orders/pfc_cert.png">
+				</center>
+			</div>
+		</div>
+			
+		<div id="second">
+			<div id="photo_two">
+				<!--<div id="info_two">
+			</div>
+				
+					<div id="hover_two"> <p></p> </div>-->
+				
+				<center>
+
+					<img id="fire_two" src="scanned_docs/promotion_orders/pfc_orders.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="third">
+			<div id="photo_three">
+				<!--<div id="info_three">
+			</div>
+				
+					<div id="hover_three"> <p></p> </div>-->
+				
+				<center>
+
+					<img id="fire_three" src="scanned_docs/promotion_orders/spc_cert.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="fourth">
+			<div id="photo_four">
+				<!--<div id="info_four">
+			</div>
+				
+					<div id="hover_four"> <p> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_four" src="scanned_docs/promotion_orders/spc_orders.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="fifth">
+			<div id="photo_five">
+				<!--<div id="info_five">
+			</div>
+				
+					<div id="hover_five"> <p></p> </div>-->
+				
+				<center>
+
+					<img id="fire_five" src="scanned_docs/promotion_orders/sgt_cert.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="sixth">
+			<div id="photo_six">
+				<!--<div id="info_six">
+				</div>
+				
+					<div id="hover_six"> <p> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_six" src="scanned_docs/promotion_orders/sgt_orders.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="sixth">
+			<div id="photo_six">
+				<!--<div id="info_six">
+				</div>
+				
+					<div id="hover_six"> <p> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_six" src="scanned_docs/admin/ncoer_one_one.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="seventh">
+			<div id="photo_seven">
+				<!--<div id="info_seven">
+				</div>
+				
+					<div id="hover_seven"> <p>  </p> </div>-->
+				
+				<center>
+
+					<img id="fire_seven" src="scanned_docs/admin/ncoer_one_two.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="eigth">
+			<div id="photo_eight">
+				<!--<div id="info_eight">
+				</div>
+				
+					<div id="hover_eight"> <p> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_eight" src="scanned_docs/admin/promotion_rec.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="ninth">
+			<div id="photo_nine">
+				<!--<div id="info_nine">
+				</div>
+				
+					<div id="hover_nine"> <p> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_nine" src="scanned_docs/admin/jump_log.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="tenth">
+			<div id="photo_ten">
+				<!--<div id="info_ten">
+				</div>
+				
+					<div id="hover_ten"> <p> </p> </div>-->
+				
+				<center>
+
+					<img id="fire_ten" src="scanned_docs/admin/deployment_report.png">
+				</center>
+			</div>
+		</div>
+			
+	
+	</body>
+
+
+
+
+
+
+</html>
