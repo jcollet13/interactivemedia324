@@ -1,0 +1,218 @@
+html{
+	height:100%;
+	width:100%;
+	 background: url(../images/background.png) no-repeat center center ; 
+ 	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+  	 -o-background-size: cover;
+  	 background-size: cover;
+}
+body{
+	height:100%;
+	width:100%;
+}
+
+.title{
+	position: absolute;
+	width:20%;
+	height: auto;
+	left: 40%;
+	bottom:70%;
+	z-index: -11;
+	opacity: .9;
+}
+
+
+.background{
+	height:100%;
+	width:100%;
+	position: absolute;
+}
+
+.accessories{
+	position: absolute;
+	top:10%;
+	left:10%;
+	width:15%;
+}
+.pants{
+	position: absolute;
+	top: 10%;
+	left:70%;
+	width:15%;
+}
+
+	.athleticshorts{
+		position: absolute;
+		width:120%;
+		bottom:4vh;
+		left:-15vw;
+		
+	
+	
+	}
+	.glowsix{
+		position: absolute;
+		width:170%;
+		top: -100%;
+		left:-20vw;
+		display: none;
+		z-index: -1;
+		
+	
+	}
+	.adventurepants{
+		position: absolute;
+		width: 100%;
+		left:13vw;
+		bottom:-11vh;
+		
+	
+	}
+	.glowfive{
+		position: absolute;
+		width: 180%;
+		left:8vw;
+		bottom:-7vh;
+		display: none;
+		z-index: -1;
+		
+	
+	}
+	.athleticshorts:hover + .glowsix{
+		display: block;
+	}
+	.adventurepants:hover + .glowfive{
+		display: block;
+	}
+	.adventurepants:hover{
+		width: 110%;
+	}
+	.athleticshorts:hover{
+		width: 110%;
+	}
+
+	.jorts{
+		position: absolute;
+		width: 100%;
+		top:7vh;
+
+	}
+
+	.glowfour{
+		position: absolute;
+		top:-2vh;
+		left:-2vw;
+		width: 180%;
+		display: none;
+		z-index: -1;
+		
+	
+	}
+	.jorts:hover + .glowfour{
+		display: block;
+	}
+	.jorts:hover{
+		width: 110%;
+	}
+
+
+.shirts{
+	position: absolute;
+	top: 50%;
+	left:10%;
+	width:15%;
+}
+
+	
+	.journeyshirt{
+		position: absolute;
+		width:100%;
+		bottom: 40%;
+		left:5vw;
+	
+	
+	}
+	.glowtwo{
+		position: absolute;
+		width:160%;
+		bottom: 50%;
+		left:2vw;
+		display: none;
+		z-index: -1;
+		
+	
+	}
+	.classyshirt{
+		position: absolute;
+		width: 120%;
+		left:15vw;
+		bottom:10%;
+		
+	
+	}
+	.glowone{
+		position: absolute;
+		width: 160%;
+		left:12vw;
+		bottom:1%;
+		display: none;
+		z-index: -1;
+		
+	
+	}
+	.classyshirt:hover + .glowone{
+		display: block;
+	}
+	.journeyshirt:hover + .glowtwo{
+		display: block;
+	}
+	.journeyshirt:hover{
+		width: 110%;
+	}
+	.classyshirt:hover{
+		width: 130%;
+	}
+
+	.plainshirt{
+		position: absolute;
+		width: 100%;
+
+
+	}
+
+	.glowthree{
+		position: absolute;
+		width: 160%;
+		display: none;
+		z-index: -1;
+		
+	
+	}
+	.plainshirt:hover + .glowthree{
+		display: block;
+	}
+	.plainshirt:hover{
+		width: 110%;
+	}
+
+.shoes{
+	position: absolute;
+	top: 60%;
+	left:70%;
+	width:15%;
+}
+.baseimage{
+	position: absolute;
+	top: 17%;
+	left:33%;
+	width: 22%;
+	z-index: -10;
+}
+
+
+
+
+	
+	
+
